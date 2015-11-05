@@ -68,9 +68,8 @@ set expandtab
 set encoding=utf-8
 "自动判断编码时 依次尝试一下编码
 set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
-
-
-
+"显示标尺
+"set ruler
 
 
 
@@ -78,4 +77,3 @@ set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
 " @ Replace <leader> key map to <space>
 " let mapleader=" "
 " "
-
