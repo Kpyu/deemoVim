@@ -1,7 +1,7 @@
 #
 # --- deemo Vim Install Shell ---
 
-# Shell for Install Aix Vim config
+# Shell for Install deemo Vim config
 # Require Git and Auto Install Vundle
 
 printf "\033[33mChecking Start...\033[0m\n"
