@@ -1,4 +1,5 @@
 " ================= Plugin Manager =========================
+"
 " Vundle Plugin Manager
 filetype off
 " Different Path between Windows and Linux
@@ -9,7 +10,6 @@ else
  set rtp+=~/.vim/bundle/Vundle.vim
  call vundle#begin()
 endif
-
 "=============== Plugins Beginning =======================
 
 "============基础插件库==============
@@ -42,7 +42,30 @@ Plugin 'junegunn/fzf'
 
 
 
-"============基础插件库==============
+"============vim增强插件库==============
+Plugin 'Shougo/neoinclude.vim'
+Plugin 'Shougo/neco-vim'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'rdnetto/YCM-Generator'
+Plugin 'Shougo/neco-syntax'
+Plugin 'honza/vim-snippets'
+Plugin 'terryma/vim-multiple-cursors' "==vim多光标输入插件
+Plugin 'terryma/vim-smooth-scroll'
+Plugin 'terryma/vim-expand-region'
+Plugin 'ebfe/vim-racer'
+Plugin 'Raimondi/delimitMate'
+Plugin 'mattn/emmet-vim'  "html/css 快速生成
+Plugin 'mattn/livestyle-vim'
+
+
+
+
+
+
+
+
+
+
 "============基础插件库==============
 "============基础插件库==============
 "============基础插件库==============

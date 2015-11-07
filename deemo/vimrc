@@ -1,0 +1,22 @@
+"          kpyu's vim    step by step
+"          2015-11-02 22:57
+
+
+"基本配置项
+source $HOME/deemo/deemo.vim
+
+"依赖的 plugin和plugin的配置
+source $HOME/deemo/deemoPlug.vim
+source $HOME/deemo/deemoPlug.conf.vim
+
+" vim 初始化配置
+"source $HOME/deemo/deemoInit.vim
+
+"键位绑定配置
+"source $HOME/deemo/deemoKeymap.vim
+
+"样式配置
+"source $HOME/deemo/deemoStyle.vim
+
+"缓冲区配置
+"source $HOME/deemo/deemoBuffer.vim

@@ -66,10 +66,10 @@ printf "\033[33mChecking Completed!\033[0m\n"
 
 #创建个人vim配置目录
 #
+if [ ! -f ".vimrc" ]; then
+	mkfile -n 1k .vimrc
+fi
 cp -rf deemo $HOME
-
-#cp -f .vimrc $HOME/
-#cp -f .nvimrc $HOME/
-# if [ ! -f "$HOME/.tmux.conf" ]; then
-# 	cp -f .tmux.conf $HOME/
-# fi
+ls
+cp -f deemo/vimrc .vimrc
+cp -f .vimrc $HOME/
