@@ -74,6 +74,7 @@ Plugin 'mattn/livestyle-vim'
 "============界面美化类插件库==============
 Plugin 'bling/vim-airline'
 Plugin 'ryanoasis/vim-devicons'
+Plugin 'zenorocha/dracula-theme'
 
 
 
@@ -94,4 +95,3 @@ filetype on
 filetype plugin on
 filetype plugin indent on
 " ========================= Vundle Plugin Setup End =========================
-

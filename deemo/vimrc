@@ -13,10 +13,10 @@ source $HOME/deemo/deemoPlug.conf.vim
 "source $HOME/deemo/deemoInit.vim
 
 "键位绑定配置
-"source $HOME/deemo/deemoKeymap.vim
+source $HOME/deemo/deemoKeyMap.vim
 
 "样式配置
 "source $HOME/deemo/deemoStyle.vim
-
+source $HOME/deemo/deemoScheme.vim
 "缓冲区配置
 "source $HOME/deemo/deemoBuffer.vim
