@@ -43,11 +43,11 @@ Plugin 'junegunn/fzf'
 
 
 "============vim增强插件库==============
-Plugin 'Shougo/neoinclude.vim'
-Plugin 'Shougo/neco-vim'
+"Plugin 'Shougo/neoinclude.vim'
+"Plugin 'Shougo/neco-vim'
 Plugin 'Valloric/YouCompleteMe'
-Plugin 'rdnetto/YCM-Generator'
-Plugin 'Shougo/neco-syntax'
+"Plugin 'rdnetto/YCM-Generator'
+"Plugin 'Shougo/neco-syntax'
 Plugin 'honza/vim-snippets'
 Plugin 'terryma/vim-multiple-cursors' "==vim多光标输入插件
 Plugin 'terryma/vim-smooth-scroll'
