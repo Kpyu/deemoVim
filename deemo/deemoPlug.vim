@@ -53,7 +53,6 @@ Plugin 'terryma/vim-multiple-cursors' "==vim多光标输入插件
 Plugin 'terryma/vim-smooth-scroll'
 Plugin 'terryma/vim-expand-region'
 Plugin 'ebfe/vim-racer'
-Plugin 'Raimondi/delimitMate'
 Plugin 'mattn/emmet-vim'  "html/css 快速生成
 Plugin 'mattn/livestyle-vim'
 
@@ -66,9 +65,57 @@ Plugin 'mattn/livestyle-vim'
 
 
 
-"============基础插件库==============
-"============基础插件库==============
-"============基础插件库==============
+
+
+
+"============Geeks Plugin==============
+Plugin 'Shougo/deoplete.nvim'
+Plugin 'SirVer/ultisnips'
+
+Plugin 'Raimondi/delimitMate'
+
+Plugin 'tpope/vim-git'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-rhubarb'
+Plugin 'tpope/vim-abolish'
+Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-repeat'
+Plugin 'tpope/vim-dispatch'
+Plugin 'tpope/vim-commentary'
+Plugin 'gregsexton/gitv'
+Plugin 'bruno-/vim-man'
+Plugin 'dhruvasagar/vim-table-mode'
+
+
+
+
+Plugin 'justinmk/vim-syntax-extra' "Extra C Flex Syntax
+Plugin 'WolfgangMehner/c.vim'
+Plugin 'Kris2k/A.vim'
+Plugin 'othree/html5.vim'
+"Plugin 'hdima/python-syntax'
+Plugin 'kh3phr3n/python-syntax'
+Plugin 'pangloss/vim-javascript'
+Plugin 'othree/javascript-libraries-syntax.vim'
+Plugin 'ap/vim-css-color'
+Plugin 'groenewege/vim-less'
+Plugin 'digitaltoad/vim-jade'
+Plugin 'elzr/vim-json'
+Plugin 'chrisbra/csv.vim'
+Plugin 'StanAngeloff/php.vim'
+Plugin 'tmux-plugins/vim-tmux'
+Plugin 'plasticboy/vim-markdown'
+Plugin 'vim-jp/vim-cpp'
+Plugin 'rust-lang/rust.vim'
+Plugin '13k/vim-nginx'
+Plugin 'guns/xterm-color-table.vim'
+
+Plugin 'godlygeek/tabular'
+Plugin 't9md/vim-quickhl'
+Plugin 'Chiel92/vim-autoformat'
+
+"============语言类插件库==============
+Plugin 'fatih/vim-go'
 
 
 "============界面美化类插件库==============

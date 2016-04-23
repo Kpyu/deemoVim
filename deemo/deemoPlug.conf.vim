@@ -1,6 +1,12 @@
 "==========================各种插件配置========================
+set rtp+=~/.fzf
 
 "=========Ailine 配置=========
+let g:Powerline_symbols = 'fancy'
+let g:airline_powerline_fonts = 1
+let g:Powerline_symbols = 'compatible'
+let g:airline_theme = 'badwolf'
+let g:ariline_theme = 'base16'
 
 
 
@@ -9,14 +15,52 @@
 
 
 
+"=========TagBar 配置 ========
+" Just configure and [make] ctags file
+
+let g:tagbar_ctags_bin = "/usr/bin/ctags"
+let g:tagbar_iconchars = ['+', '-']
+
+" for coffeeScript
+
+let g:tagbar_type_coffee = {
+			\ 'ctagstype' : 'coffee',
+			\ 'kinds'     : [
+			\ 'c:classes',
+			\ 'm:methods',
+			\ 'f:functions',
+			\ 'v:variables',
+			\ 'f:fields',
+			\ ]
+			\ }
+let g:tagbar_type_css = {
+			\ 'ctagstype' : 'Css',
+			\ 'kinds'     : [
+			\ 'c:classes',
+			\ 's:selectors',
+			\ 'i:identities'
+			\ ]
+			\ }
 
 
-"=========TagBa 配置 ========
+	" Syntastic Config
+	set statusline+=%#f1#
+	set statusline+=%{SyntasticStatuslineFlag()}
+	set statusline+=%*
+	let g:syntastic_error_symbol = 'x'
+	let g:syntastic_warning_symbol = '!'
+	let g:syntastic_always_populate_loc_list = 1
+	let g:syntastic_auto_loc_list            = 1
+	let g:syntastic_check_on_open            = 1
+	let g:syntastic_check_on_wq              = 0
 
-
-
-
-
+	" set Syntastic Cheacker engine
+	" example JavaScript use JSHint [ NodeJS ]
+	let g:syntastic_php_checkers        = ['php', 'phpcs', 'phpmd']
+	let g:syntastic_javascript_checkers = ['jshint']
+	let g:syntastic_java_checkers       = ['java', 'jsp']
+	let g:syntastic_c_checkers          = ['c', 'h']
+	let g:syntastic_cpp_checkers        = ['cpp']
 
 
 

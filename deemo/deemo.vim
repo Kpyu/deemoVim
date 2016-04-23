@@ -1,5 +1,5 @@
-"   vim 的基本配置 
-"   @author kpyu 
+"   vim 的基本配置
+"   @author kpyu
 "   @date 2015-11-02
 "   @version 0.1
 
@@ -23,6 +23,8 @@ set showcmd
 set nobackup
 set noswapfile
 
+"设置粘贴模式切换
+set pastetoggle=<F11>
 
 set regexpengine=1
 "设置历史记录条数
@@ -69,9 +71,21 @@ set encoding=utf-8
 "自动判断编码时 依次尝试一下编码
 set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
 "显示标尺
-"set ruler
-
-
+set ruler
+"设置高亮
+set hls 
+" Ignore file 配置
+set wildignore=*.o,*.obj,*~ "stuff to ignore when tab completing
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
+set wildignore+=*DS_Store*
+set wildignore+=vendor/rails/**
+set wildignore+=vendor/cache/**
+set wildignore+=*.gem
+set wildignore+=log/**
+set wildignore+=tmp/**
+set wildignore+=*.png,*.jpg,*.gif
+set wildignore+=*.so,*.swp,*.zip,*/.Trash/**,*.pdf,*.dmg,*/Library/**,*/.rbenv/**
+set wildignore+=*/.nx/**,*.app,*.git,.git
 
 
 " @ Replace <leader> key map to <space>
