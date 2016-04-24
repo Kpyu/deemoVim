@@ -86,7 +86,27 @@ let g:use_emmet_settings = {
 "============ YouCompleteMe 配置===============
 " Linux vim && NeoVim Using YouCompleteMe
 "let g:deoplete#enable_at_startup=1
-"let g:ycm_auto_trigger = 1
+let g:ycm_auto_trigger = 1
+let g:ycm_confirm_extra_conf = 0
+set completeopt=longest,menu "让Vim的补全菜单行为与一般IDE一致
+inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<CR>"
+"上下左右键的行为 会显示其他信息
+inoremap <expr> <Down>     pumvisible() ? "\<C-n>" : "\<Down>"
+inoremap <expr> <Up>       pumvisible() ? "\<C-p>" : "\<Up>"
+inoremap <expr> <PageDown> pumvisible() ? "\<PageDown>\<C-p>\<C-n>" : "\<PageDown>"
+inoremap <expr> <PageUp>   pumvisible() ? "\<PageUp>\<C-p>\<C-n>" : "\<PageUp>"
+" 跳转到定义处
+nnoremap <leader>jd :YcmCompleter GoToDefinitionElseDeclaration<CR>
+nnoremap <F6> :YcmForceCompileAndDiagnostics<CR>  "force recomile with syntastic"
+
+" 开启语义补全
+let g:ycm_seed_identifiers_with_syntax=1
+"youcompleteme  默认tab  s-tab 和 ultisnips 冲突
+let g:ycm_key_list_select_completion = ['<Down>']
+let g:ycm_key_list_previous_completion = ['<Up>']
+" 修改对C函数的补全快捷键，默认是CTRL + space，修改为ALT + ;
+let g:ycm_key_invoke_completion = '<M-;>'
+
 "let g:ycm_collect_identifiers_from_tags_files = 1
 "let g:ycm_min_num_of_chars_for_completion = 9999
 "let g:ycm_add_preview_to_completeopt = 1
