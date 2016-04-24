@@ -460,7 +460,7 @@ let g:favorite_color_schemes = ['molokai',
                     \ 'zenesque',
                     \ 'zephyr',
                     \ 'zmrok']
-g:favorite_color_schemes = ['molokai',
+let g:favorite_color_schemes = ['molokai',
                     \ 'github',
                     \ 'dream',
                     \ 'dracula',
