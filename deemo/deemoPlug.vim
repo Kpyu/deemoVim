@@ -122,6 +122,11 @@ Plugin 'fatih/vim-go'
 Plugin 'bling/vim-airline'
 Plugin 'ryanoasis/vim-devicons'
 Plugin 'zenorocha/dracula-theme'
+Plugin 'crusoexia/vim-dream'
+Plugin 'Lokaltog/distinguished-theme'
+Plugin 'flazz/vim-colorschemes'
+Plugin 'endel/vim-github-colorscheme'
+Plugin 'FuDesign2008/randomColor.vim'
 
 
 
