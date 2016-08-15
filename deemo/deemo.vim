@@ -40,7 +40,8 @@ set showmatch
 "设置C/C++方式自动对齐
 set autoindent
 set cindent
-
+"在插入模式下粘贴内容
+set paste 
 
 
 "开启语法高亮功能
