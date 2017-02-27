@@ -140,9 +140,7 @@ let g:ycm_warning_symbol = '>*'
 nnoremap <leader>gl :YcmCompleter GoToDeclaration<CR>
 nnoremap <leader>gf :YcmCompleter GoToDefinition<CR>
 nnoremap <leader>gg :YcmCompleter GoToDefinitionElseDeclaration<CR>
-
-
-
+let g:ycm_disable_for_files_larger_than_kb = 0
 
 " =============Multip Cursor============
 " Default mapping
@@ -173,3 +171,11 @@ let g:WebDevIconsUnicodeGlyphDoubleWidth = 1
 let g:webdevicons_conceal_nerdtree_brackets = 1
 let g:WebDevIconsNerdTreeAfterGlyphPadding = ''
 let g:WebDevIconsNerdTreeGitPluginForceVAlign=1
+
+
+
+" ================Language Config===========
+
+let g:typescript_indent_disable = 1
+let g:typescript_compiler_binary = 'tsc'
+let g:typescript_compiler_options = ''

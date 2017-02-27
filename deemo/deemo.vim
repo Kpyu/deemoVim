@@ -88,7 +88,8 @@ set wildignore+=*.png,*.jpg,*.gif
 set wildignore+=*.so,*.swp,*.zip,*/.Trash/**,*.pdf,*.dmg,*/Library/**,*/.rbenv/**
 set wildignore+=*/.nx/**,*.app,*.git,.git
 
-
+let g:ycm_keep_logfiles = 1
+let g:ycm_log_level = 'debug'
 " @ Replace <leader> key map to <space>
 " let mapleader=" "
 " "

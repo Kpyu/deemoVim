@@ -27,7 +27,7 @@ Plugin 'bruno-/vim-alt-mappings'
 
 Plugin 'scrooloose/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
-Plugin 'Shougo/vimproc.vim'
+Plugin 'Shougo/vimproc.vim' , {'do' : 'make'}
 Plugin 'Shougo/unite.vim'
 Plugin 'Shougo/unite-outline'
 Plugin 'tsukkee/unite-tag'
@@ -116,6 +116,8 @@ Plugin 'Chiel92/vim-autoformat'
 
 "============语言类插件库==============
 Plugin 'fatih/vim-go'
+Plugin 'Quramy/tsuquyomi'
+Plugin 'leafgarland/typescript-vim'
 
 
 "============界面美化类插件库==============

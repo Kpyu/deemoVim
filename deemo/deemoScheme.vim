@@ -463,7 +463,6 @@ let g:favorite_color_schemes = ['molokai',
 let g:favorite_color_schemes = ['molokai',
                     \ 'github',
                     \ 'dream',
-                    \ 'dracula',
                     \ 'distinguished']
 let g:random_color_start = 2
 colo pyte
