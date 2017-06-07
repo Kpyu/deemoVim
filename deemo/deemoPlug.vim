@@ -129,6 +129,7 @@ Plugin 'Lokaltog/distinguished-theme'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'endel/vim-github-colorscheme'
 Plugin 'FuDesign2008/randomColor.vim'
+Plugin 'trusktr/seti.vim'
 
 
 

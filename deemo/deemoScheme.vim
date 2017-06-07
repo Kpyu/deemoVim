@@ -459,15 +459,15 @@ let g:favorite_color_schemes = ['molokai',
                     \ 'zenburn',
                     \ 'zenesque',
                     \ 'zephyr',
+                    \ 'seti',
                     \ 'zmrok']
 let g:favorite_color_schemes = ['molokai',
                     \ 'github',
-                    \ 'dream',
-                    \ 'distinguished']
+                    \ 'seti']
 let g:random_color_start = 2
 colo pyte
       
-"colorscheme dream
+colorscheme seti
 "color codeschool
 "colorscheme  dracula
 "colorscheme distinguished
