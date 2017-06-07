@@ -118,7 +118,7 @@ Plugin 'Chiel92/vim-autoformat'
 Plugin 'fatih/vim-go'
 Plugin 'Quramy/tsuquyomi'
 Plugin 'leafgarland/typescript-vim'
-Plugin 'ianks/vim-tsx‘
+Plugin 'ianks/vim-tsx'
 
 "============界面美化类插件库==============
 Plugin 'bling/vim-airline'
